@@ -1,4 +1,178 @@
-## Mapa das sprints
+# ÉPICOS E HISTÓRIAS DE USUÁRIO DETALHADOS
+
+## ÉPICO 01 - GESTÃO DE NORMAS
+Permitir armazenar e gerenciar normas técnicas
+
+### Características
+- cadastro de normas
+- upload de arquivos
+- versionamento de normas
+- marcar como norma obsoleta
+
+### Histórias de usuário
+**US01**
+```
+Como gestor de normas
+quero cadastrar uma nova norma
+para que ela esteja disponível no sistema
+```
+
+**US02**
+```
+Como gestor de normas
+quero registrar versões de uma norma
+para manter histórico e rastreabilidade
+```
+
+**US03**
+```
+Como engenheiro
+quero visualizar normas ativas
+para saber quais são válidas para uso
+```
+
+## ÉPICO 02 - SISTEMA DE TAGS
+Permitir classificar normas usando palavras-chave técnicas
+
+### Características
+- cadastro de tags
+- associação de tags às normas
+- busca por tags
+- filtragem por tags
+
+### Histórias de usuário
+**US04**
+```
+Como gestor de normas
+quero cadastrar novas tags
+para classificar normas de forma padronizada
+```
+
+**US05**
+```
+Como gestor de normas
+quero associar tags às normas
+para melhorar a organização e busca
+```
+
+**US06**
+```
+Como engenheiro
+quero filtrar normas por tags
+para encontrar rapidamente normas relevantes
+```
+
+## ÉPICO 03 - FILTRAGEM E BUSCA DE NORMAS
+Permitir encontrar normas rapidamente
+
+### Características
+- busca por código (id)
+- busca por texto
+- filtragem por área
+- filtragem por tags
+- filtros combinados
+
+### Histórias de usuário
+**US07**
+```
+Como engenheiro
+quero pesquisar normas por código ou nome
+para encontrar uma norma específica
+```
+
+**US08**
+```
+Como engenheiro
+quero filtrar normas por área técnica
+para reduzir o número de resultados
+```
+
+**US09**
+```
+Como engenheiro
+quero combinar filtros de área e tags
+para encontrar normas com mais precisão
+```
+
+## ÉPICO 04 - GESTÃO DE PEÇAS
+Permitir registrar peças e normas aplicadas
+
+### Características
+- cadastro de peças
+- associação de normas
+- histórico de normas usadas
+
+### Histórias de usuário
+**US10**
+```
+Como engenheiro
+quero cadastrar uma peça
+para documentar sua fabricação
+```
+
+**US11**
+```
+Como engenheiro
+quero associar normas a uma peça
+para registrar quais foram utilizadas
+```
+
+## ÉPICO 05 - DOCUMENTAÇÃO DE ETAPAS
+Registro de documentos por fase de peça
+
+### Características
+- upload de documentos
+- registro de etapas
+- vínculo com peça
+
+### Histórias de usuário
+**US12**
+```
+Como engenheiro
+quero registrar documentos em cada etapa da peça
+para manter rastreabilidade do processo
+```
+
+## ÉPICO 06 - SEGURANÇA E CONTROLE DE ACESSO
+Permitir "tipos" de usuário no sistema
+
+### Características
+- autenticação
+- permissões
+- acesso controlado dos arquivos
+
+### Histórias de usuário
+**US13**
+```
+Como gestor do sistema
+quero definir permissões de usuários
+para controlar quem pode editar normas
+```
+
+**US14**
+```
+Como gestor do sistema
+quero acessar apenas recursos permitidos
+para garantir segurança das informações.
+```
+
+## ÉPICO 07 - PREPARAÇÃO PARA IA
+
+### Características
+- armazenamento estruturado de dados
+- histórico de aplicação de normas
+
+### Histórias de usuário
+**US15**
+```
+Como engenheiro
+quero registrar histórico de normas aplicadas às peças
+para permitir recomendações futuras por IA
+```
+
+<br><br>
+
+# MAPA DAS SPRINTS
 ```
 A intenção é seguir uma progressão de valor
 
