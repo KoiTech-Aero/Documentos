@@ -76,9 +76,9 @@ A solução proposta consiste no desenvolvimento de um sistema para gerenciament
 
 | Sprint         |    Período    | Documentação                                          |
 | -------------- | :-----------: | ----------------------------------------------------- |
-| 🔖 **SPRINT 1** | 16/03 - 05/04 | [Sprint 1 Docs]()  |
-| 🔖 **SPRINT 2** | 13/04 - 03/05 | [Sprint 2 Docs]()  |
-| 🔖 **SPRINT 3** | 11/05 - 31/05 | [Sprint 3 Docs]()  |
+| 🔖 **SPRINT 1** | 16/03 - 05/04 | [Sprint 1 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2001.md)  |
+| 🔖 **SPRINT 2** | 13/04 - 03/05 | [Sprint 2 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2002.md)  |
+| 🔖 **SPRINT 3** | 11/05 - 31/05 | [Sprint 3 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2003.md)  |
 
 ## 🪵 Branch Strategy <a id="branchstrategy"></a>
 Github Flow foi a estrátegia escolhida por ser fácil e rápida de trabalhar, perfeita para equipes pequenas, além de se adequar a projetos que não são construido através de versões. Github Flow possui algumasd regras básicas:
