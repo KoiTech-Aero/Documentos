@@ -19,26 +19,29 @@
   <a href ="#equipe"> Equipe</a>
 </p>
 
-> Status da Sprint: Em andamento 🟨
+> Status da Sprint: Concluída 🟩
 
 ## 🏅 Meta (US01 e US03)
+
 Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, registro de versões, inclusão de escopo e visualização de referências entre normas <a id="meta"></a>
 
-## 📌 Demonstração<a id="demonstracao"></a>
+## 📌 Demonstração<a id="demonstracao" ></a>
+### <a href="https://www.youtube.com/watch?v=e-QOllVsI6s">Sprint 1 - Site Koitech - Aero</a>
 
 ## 📝 Histórias de usuário <a id="historias"></a>
 
-| RANK | PRIORIDADE | USER STORY                                                                                                                          | STORY POINTS | SPRINT | STATUS |
-| :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
-|  1   |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                                     |      7       |   1    |   🟩   |
-|  2   |    alta    | Como engenheiro quero listar normas ativas para saber quais são válidas para uso                                                    |      7       |   1    |   🟩   |
-|  3   |   média    | Como gestor do sistema quero registrar versões de uma norma para manter histórico e rastreabilidade                                 |      8       |   1    |   🟩   |
-|  4   |   baixa    | Como gestor do sistema quero associar uma norma a outras normas referenciadas para representar as dependências entre normas         |      5       |   1    |   🟩   |
-|  5   |   baixa    | Como engenheiro quero visualizar quais normas são referenciadas por uma norma para entender suas dependências técnicas              |      7       |   1    |   🟩   |
+| RANK | PRIORIDADE | USER STORY                                                                                                                  | STORY POINTS | SPRINT | STATUS |
+| :--: | :--------: | :-------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
+|  1   |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                             |      7       |   1    |   🟩   |
+|  2   |    alta    | Como engenheiro quero listar normas ativas para saber quais são válidas para uso                                            |      7       |   1    |   🟩   |
+|  3   |   média    | Como gestor do sistema quero registrar versões de uma norma para manter histórico e rastreabilidade                         |      8       |   1    |   🟩   |
+|  4   |   baixa    | Como gestor do sistema quero associar uma norma a outras normas referenciadas para representar as dependências entre normas |      5       |   1    |   🟩   |
+|  5   |   baixa    | Como engenheiro quero visualizar quais normas são referenciadas por uma norma para entender suas dependências técnicas      |      7       |   1    |   🟩   |
 
 ## 📝 Critérios de aceitação (em ordem númerica e não de prioridade)<a id="criterios"></a>
 
 **US01 — Cadastrar norma**
+
 ```
 - O sistema deve permitir cadastrar uma norma informando código e título
 - O sistema deve permitir registrar a área técnica da norma
@@ -48,6 +51,7 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 ```
 
 **US02 — Registrar versões de norma**
+
 ```
 - O sistema deve permitir adicionar uma nova versão a uma norma existente
 - Cada versão deve possuir identificação de versão
@@ -57,6 +61,7 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 ```
 
 **US03 — Listar normas ativas**
+
 ```
 - O sistema deve permitir listar todas as normas ativas
 - Normas desativadas ou obsoletas não devem aparecer na listagem padrão
@@ -65,6 +70,7 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 ```
 
 **US04 — Associar normas referenciadas**
+
 ```
 - O sistema deve permitir associar uma norma a outras normas já cadastradas
 - A associação deve indicar qual norma referencia a outra
@@ -74,6 +80,7 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 ```
 
 **US05 — Visualizar normas referenciadas**
+
 ```
 - O sistema deve permitir visualizar as normas referenciadas por uma norma
 - A listagem deve exibir código e título das normas referenciadas
@@ -82,29 +89,31 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 ```
 
 ## ✔️ "Definition of Ready" <a id="dordod"></a>
-  - Está escrita no formato de história de usuário
-  - Possui critérios de aceitação definidos
-  - Possui escopo claro
-  - É pequena o suficiente para uma Sprint
-  - Dependências estão identificadas
-  - Foi compreendida pela equipe
+
+- Está escrita no formato de história de usuário
+- Possui critérios de aceitação definidos
+- Possui escopo claro
+- É pequena o suficiente para uma Sprint
+- Dependências estão identificadas
+- Foi compreendida pela equipe
 
 ## 🎯 "Definition of Done"
-  - Todos os critérios de aceitação foram atendidos
-  - Funcionalidade implementada e funcionando
-  - Código versionado seguindo o padrão da equipe
-  - Pull Request aprovado
-  - Código integrado ao repositório remoto
-  - Funcionalidade validada pela equipe
+
+- Todos os critérios de aceitação foram atendidos
+- Funcionalidade implementada e funcionando
+- Código versionado seguindo o padrão da equipe
+- Pull Request aprovado
+- Código integrado ao repositório remoto
+- Funcionalidade validada pela equipe
 
 ## 👥 EQUIPE <a id="equipe"></a>
 
-|       MEMBRO        |     PAPEL     |                                                                            GITHUB                                                                             |                                                         LINKEDIN                                                          |
-| :-----------------: | :-----------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
-| Guilherme Alvarenga | Product Owner | <a href="https://github.com/hiGuigo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/guilherme-alvarenga-0834b938a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|    Mariana Souza    | Scrum Master |     <a href="https://github.com/nevesmariana"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>      | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|    Giovana Tarozo   | Desenvolvedor |        <a href="https://github.com/giotrzz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>         | <a href="https://www.linkedin.com/in/giovana-tarozo-a10922226/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|     João Souza      | Desenvolvedor |      <a href="https://github.com/joao-luis-0"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>      | <a href="http://www.linkedin.com/in/joão-luis--"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|   Lucas Pereira    | Desenvolvedor |        <a href="http://github.com/lupesii"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>        | <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|    Rayssa Rizzi     | Desenvolvedor |      <a href="https://github.com/rayssarizzi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>      | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|   Robert Marques    | Desenvolvedor |      <a href="https://github.com/Robert-gus"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>       | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+|       MEMBRO        |     PAPEL     |                                                                        GITHUB                                                                        |                                                                                      LINKEDIN                                                                                       |
+| :-----------------: | :-----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Guilherme Alvarenga | Product Owner |   <a href="https://github.com/hiGuigo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    | <a href="https://www.linkedin.com/in/guilherme-alvarenga-0834b938a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+|    Mariana Souza    | Scrum Master  | <a href="https://github.com/nevesmariana"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |                             <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                              |
+|   Giovana Tarozo    | Desenvolvedor |   <a href="https://github.com/giotrzz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |   <a href="https://www.linkedin.com/in/giovana-tarozo-a10922226/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>    |
+|     João Souza      | Desenvolvedor | <a href="https://github.com/joao-luis-0"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |           <a href="http://www.linkedin.com/in/joão-luis--"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>           |
+|    Lucas Pereira    | Desenvolvedor |    <a href="http://github.com/lupesii"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>    |                              <a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                              |
+|    Rayssa Rizzi     | Desenvolvedor | <a href="https://github.com/rayssarizzi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |                             <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                              |
+|   Robert Marques    | Desenvolvedor |  <a href="https://github.com/Robert-gus"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>  |                             <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>                              |

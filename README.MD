@@ -92,7 +92,7 @@ A solução proposta consiste no desenvolvimento de um sistema para gerenciament
 
 | Sprint          |     Período      | Documentação                                                                                    | Demonstração     |
 | --------------- | :--------------: | ----------------------------------------------------------------------------------------------- | ---------------- |
-| 🔖 **SPRINT 1** | 🗓️ 16/03 - 05/04 | 📄 [Sprint 1 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2001.md) | 🎥 [Ver Demo](#) |
+| 🔖 **SPRINT 1** | 🗓️ 16/03 - 05/04 | 📄 [Sprint 1 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2001.md) | 🎥 [Ver Demo](https://www.youtube.com/watch?v=e-QOllVsI6s) |
 | 🔖 **SPRINT 2** | 🗓️ 13/04 - 03/05 | 📄 [Sprint 2 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2002.md) | 🎥 [Ver Demo](#) |
 | 🔖 **SPRINT 3** | 🗓️ 11/05 - 31/05 | 📄 [Sprint 3 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2003.md) | 🎥 [Ver Demo](#) |
 
