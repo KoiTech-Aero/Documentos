@@ -11,7 +11,7 @@
 </h2>
 
 <p align="center">
-  <a href ="#meta"> Meta</a>  
+  <a href ="#meta"> Meta</a> |
   <a href ="#demonstracao">Demonstração</a>  |
   <a href ="#historias"> Histórias de usuário</a>  |   
   <a href ="#criterios">Critérios</a> |
@@ -22,7 +22,7 @@
 > Status da Sprint: Em andamento 🟨
 
 ## 🏅 Meta (US01 e US03)
-Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, registro de versões, inclusão de contexto e visualização de referências entre normas <a id="meta"></a>
+Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, registro de versões, inclusão de escopo e visualização de referências entre normas <a id="meta"></a>
 
 ## 📌 Demonstração<a id="demonstracao"></a>
 
@@ -30,7 +30,7 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                          | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
-|  1   |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                                     |      7       |   1    |   🟨   |
+|  1   |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                                     |      7       |   1    |   🟩   |
 |  2   |    alta    | Como engenheiro quero listar normas ativas para saber quais são válidas para uso                                                    |      7       |   1    |   🟩   |
 |  3   |   média    | Como gestor do sistema quero registrar versões de uma norma para manter histórico e rastreabilidade                                 |      8       |   1    |   🟩   |
 |  4   |   baixa    | Como gestor do sistema quero associar uma norma a outras normas referenciadas para representar as dependências entre normas         |      5       |   1    |   🟩   |
