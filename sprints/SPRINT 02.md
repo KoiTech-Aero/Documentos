@@ -3,7 +3,7 @@
 ## Plataforma de Conteúdo Técnico de Normas Aeronáuticas
 
 <p align="center">
-  <img width="200" alt="koitech_logo" src="https://github.com/user-attachments/assets/53c3002d-f47b-466a-a532-b1b5d846d711" />
+  <img width="200" alt="koitech_logo" src="https://i.imgur.com/YugGoAM.png" />
 </p>
 
 <h2 align="center">
@@ -30,13 +30,13 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                          | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
-|   7  |    alta    | Como engenheiro quero pesquisar normas pelo código ou pelo nome para encontrar rapidamente uma norma específica                     |       6      |    2   |    ❌   |
-|   8  |    média   | Como gestor do sistema quero cadastrar novas tags para classificar normas de forma padronizada                                      |       5      |    2   |    ❌   |
-|   9  |    média   | Como gestor do sistema quero associar tags às normas para melhorar a organização e busca                                            |       5      |    2   |    ❌   |
-|  10  |    média   | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico               |       7      |    2   |    ❌   |
+|   6  |    alta    | Como engenheiro quero pesquisar normas pelo código ou pelo nome para encontrar rapidamente uma norma específica                     |       6      |    2   |    ❌   |
+|   7  |    média   | Como gestor do sistema quero cadastrar novas tags para classificar normas de forma padronizada                                      |       5      |    2   |    ❌   |
+|   8  |    média   | Como gestor do sistema quero associar tags às normas para melhorar a organização e busca                                            |       5      |    2   |    ❌   |
+|  9  |    média   | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico               |       7      |    2   |    ❌   |
 
 ## 📝 Critérios de aceitação (em ordem númerica e não de prioridade)<a id="criterios"></a>
-**US11 — Cadastrar tags**
+**US10 — Cadastrar tags**
 ```
 - O sistema deve permitir cadastrar uma nova tag
 - Cada tag deve possuir nome único
@@ -44,7 +44,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
 - As tags cadastradas devem ficar disponíveis para associação às normas
 ```
 
-**US12 — Associar tags às normas**
+**US11 — Associar tags às normas**
 ```
 - O sistema deve permitir associar uma ou mais tags a uma norma
 - Apenas tags previamente cadastradas podem ser associadas
@@ -52,7 +52,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
 - Deve ser possível remover uma associação de tag
 ```
 
-**US13 — Buscar normas por código ou nome**
+**US12 — Buscar normas por código ou nome**
 ```
 - O sistema deve permitir pesquisar normas pelo código da norma
 - O sistema deve permitir pesquisar normas pelo nome ou título
@@ -60,7 +60,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
 - O sistema deve permitir selecionar uma norma a partir do resultado da busca
 ```
 
-**US14 — Filtrar normas por tags**
+**US13 — Filtrar normas por tags**
 ```
 - O sistema deve permitir selecionar uma ou mais tags como filtro
 - A listagem deve exibir apenas normas associadas às tags selecionadas

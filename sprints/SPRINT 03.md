@@ -3,7 +3,7 @@
 ## Plataforma de Conteúdo Técnico de Normas Aeronáuticas
 
 <p align="center">
-  <img width="200" alt="koitech_logo" src="https://github.com/user-attachments/assets/53c3002d-f47b-466a-a532-b1b5d846d711" />
+  <img width="200" alt="koitech_logo" src="https://i.imgur.com/YugGoAM.png" />
 </p>
 
 <h2 align="center">
@@ -30,18 +30,18 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                          | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
-|  11  |    alta    | Como engenheiro quero solicitar uma nota para uma norma para registrar observações ou interpretações técnicas                       |       8      |    3   |    ❌   |
-|  12  |    alta    | Como gestor do sistema quero cadastrar novos usuários no sistema para que eles possam acessar a plataforma conforme suas permissões |       5      |    3   |    ❌   |
-|  13  |    média   | Como gestor do sistema quero aprovar ou rejeitar notas solicitadas para controlar o conteúdo exibido no sistema                     |       7      |    3   |    ❌   |
-|  14  |    média   | Como engenheiro quero visualizar as notas aprovadas em uma norma para entender observações relevantes                               |       7      |    3   |    ❌   |
-|  15  |    baixa   | Como engenheiro quero solicitar o cadastro de uma norma para que ela seja adquirida ou cadastrada pela empresa                      |       7      |    3   |    ❌   |
-|  16  |    baixa   | Como gestor do sistema quero visualizar a lista de usuários cadastrados para que eu possa gerenciar quem tem acesso ao sistema      |       4      |    3   |    ❌   |
-|  17  |    baixa   | Como gestor do sistema quero alterar dados ou permissões de um usuário para que eu possa ajustar seu acesso quando necessário       |       5      |    3   |    ❌   |
-|  18  |    baixa   | Como gestor do sistema quero desativar usuários para que eles não tenham mais acesso ao sistema                                     |       4      |    3   |    ❌   |
+|  10  |    alta    | Como engenheiro quero solicitar uma nota para uma norma para registrar observações ou interpretações técnicas                       |       8      |    3   |    ❌   |
+|  11  |    alta    | Como gestor do sistema quero cadastrar novos usuários no sistema para que eles possam acessar a plataforma conforme suas permissões |       5      |    3   |    ❌   |
+|  12  |    média   | Como gestor do sistema quero aprovar ou rejeitar notas solicitadas para controlar o conteúdo exibido no sistema                     |       7      |    3   |    ❌   |
+|  13  |    média   | Como engenheiro quero visualizar as notas aprovadas em uma norma para entender observações relevantes                               |       7      |    3   |    ❌   |
+|  14  |    baixa   | Como engenheiro quero solicitar o cadastro de uma norma para que ela seja adquirida ou cadastrada pela empresa                      |       7      |    3   |    ❌   |
+|  15  |    baixa   | Como gestor do sistema quero visualizar a lista de usuários cadastrados para que eu possa gerenciar quem tem acesso ao sistema      |       4      |    3   |    ❌   |
+|  16  |    baixa   | Como gestor do sistema quero alterar dados ou permissões de um usuário para que eu possa ajustar seu acesso quando necessário       |       5      |    3   |    ❌   |
+|  17  |    baixa   | Como gestor do sistema quero desativar usuários para que eles não tenham mais acesso ao sistema                                     |       4      |    3   |    ❌   |
 
 ## 📝 Critérios de aceitação (em ordem númerica e não de prioridade)<a id="criterios"></a>
 
-**US07 — Solicitar nota para uma norma**
+**US06 — Solicitar nota para uma norma**
 ```
 - O sistema deve permitir que um engenheiro solicite o registro de uma nota associada a uma norma
 - A nota deve possuir conteúdo textual com a observação ou interpretação técnica
@@ -49,7 +49,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - A nota solicitada deve permanecer com status pendente até avaliação do gestor
 ```
 
-**US08 — Aprovar ou rejeitar notas**
+**US07 — Aprovar ou rejeitar notas**
 ```
 - O sistema deve permitir que o gestor visualize notas solicitadas pelos engenheiros
 - O sistema deve permitir aprovar uma nota solicitada
@@ -57,7 +57,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - O sistema deve registrar o status da nota como aprovada ou rejeitada
 ```
 
-**US09 — Visualizar notas aprovadas**
+**US08 — Visualizar notas aprovadas**
 ```
 - O sistema deve permitir visualizar as notas aprovadas associadas a uma norma
 - Notas rejeitadas ou pendentes não devem aparecer na visualização padrão
@@ -65,7 +65,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - A visualização deve ser acessível ao perfil engenheiro
 ```
 
-**US10 — Solicitar cadastro de norma**
+**US09 — Solicitar cadastro de norma**
 ```
 - O sistema deve permitir que um engenheiro solicite o cadastro de uma nova norma
 - A solicitação deve conter pelo menos o código ou o título da norma
@@ -73,7 +73,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - A solicitação deve ficar disponível para visualização do gestor do sistema
 ```
 
-**US15 — Cadastrar usuários**
+**US14 — Cadastrar usuários**
 ```
 - O sistema deve permitir cadastrar novo usuário informando nome e identificação
 - O sistema deve permitir definir perfil do usuário (engenheiro ou gestor)
@@ -81,7 +81,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - O usuário cadastrado deve aparecer na lista de usuários
 ```
 
-**US16 — Visualizar usuários**
+**US15 — Visualizar usuários**
 ```
 - O sistema deve permitir visualizar todos os usuários cadastrados
 - A listagem deve exibir nome e perfil do usuário
@@ -89,7 +89,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - Usuários desativados devem continuar visíveis na listagem para fins de histórico
 ```
 
-**US17 — Alterar dados ou permissões de usuário**
+**US16 — Alterar dados ou permissões de usuário**
 ```
 - O sistema deve permitir editar dados de um usuário existente
 - O sistema deve permitir alterar o perfil ou permissões do usuário
@@ -97,7 +97,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - As alterações devem ser refletidas na lista de usuários
 ```
 
-**US18 — Desativar usuários**
+**US17 — Desativar usuários**
 ```
 - O sistema deve permitir desativar um usuário existente
 - Usuários desativados não devem conseguir acessar o sistema

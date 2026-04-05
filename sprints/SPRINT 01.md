@@ -3,7 +3,7 @@
 ## Plataforma de Conteúdo Técnico de Normas Aeronáuticas
 
 <p align="center">
-  <img width="200" alt="koitech_logo" src="https://github.com/user-attachments/assets/53c3002d-f47b-466a-a532-b1b5d846d711" />
+  <img width="200" alt="koitech_logo" src="https://i.imgur.com/YugGoAM.png" />
 </p>
 
 <h2 align="center">
@@ -30,12 +30,11 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                          | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
-|   1  |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                                     |       7      |    1   |    ❌   |
-|   2  |    alta    | Como engenheiro quero listar normas ativas para saber quais são válidas para uso                                                    |       7      |    1   |    ❌   |
-|   3  |    média   | Como gestor do sistema quero registrar versões de uma norma para manter histórico e rastreabilidade                                 |       8      |    1   |    ❌   |
-|   4  |    média   | Como gestor do sistema quero cadastrar um resumo ou contexto da norma para facilitar o entendimento do seu conteúdo                 |       7      |    1   |    ❌   |
-|   5  |    baixa   | Como gestor do sistema quero associar uma norma a outras normas referenciadas para representar as dependências entre normas         |       5      |    1   |    ❌   |
-|   6  |    baixa   | Como engenheiro quero visualizar quais normas são referenciadas por uma norma para entender suas dependências técnicas              |       7      |    1   |    ❌   |
+|  1   |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                                     |      7       |   1    |   🟨   |
+|  2   |    alta    | Como engenheiro quero listar normas ativas para saber quais são válidas para uso                                                    |      7       |   1    |   🟩   |
+|  3   |   média    | Como gestor do sistema quero registrar versões de uma norma para manter histórico e rastreabilidade                                 |      8       |   1    |   🟩   |
+|  4   |   baixa    | Como gestor do sistema quero associar uma norma a outras normas referenciadas para representar as dependências entre normas         |      5       |   1    |   🟩   |
+|  5   |   baixa    | Como engenheiro quero visualizar quais normas são referenciadas por uma norma para entender suas dependências técnicas              |      7       |   1    |   🟩   |
 
 ## 📝 Critérios de aceitação (em ordem númerica e não de prioridade)<a id="criterios"></a>
 
@@ -44,6 +43,7 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 - O sistema deve permitir cadastrar uma norma informando código e título
 - O sistema deve permitir registrar a área técnica da norma
 - O sistema deve registrar automaticamente a data de cadastro da norma
+- O sistema deve permitir cadastrar o escopo da norma
 - O sistema não deve permitir cadastrar duas normas com o mesmo código
 ```
 
@@ -79,15 +79,6 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 - A listagem deve exibir código e título das normas referenciadas
 - O sistema deve permitir acessar os detalhes de uma norma referenciada
 - A visualização deve ser acessível ao perfil engenheiro
-```
-
-**US06 — Registrar resumo da norma**
-```
-- O sistema deve permitir registrar um resumo ou contexto associado a uma norma
-- O resumo deve ser armazenado como texto descritivo
-- O sistema deve permitir visualizar o resumo ao acessar a norma
-- O sistema deve permitir editar o resumo da norma
-- O resumo deve permanecer vinculado à norma correspondente
 ```
 
 ## ✔️ "Definition of Ready" <a id="dordod"></a>

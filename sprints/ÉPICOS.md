@@ -46,33 +46,26 @@ para entender suas dependências técnicas
 
 **US06**
 ```
-Como gestor do sistema
-quero cadastrar um resumo ou contexto da norma
-para facilitar o entendimento do seu conteúdo
-```
-
-**US07**
-```
 Como engenheiro
 quero solicitar uma nota para uma norma
 para registrar observações ou interpretações técnicas
 ```
 
-**US08**
+**US07**
 ```
 Como gestor do sistema
 quero aprovar ou rejeitar notas solicitadas
 para controlar o conteúdo exibido no sistema
 ```
 
-**US09**
+**US08**
 ```
 Como engenheiro
 quero visualizar as notas aprovadas em uma norma
 para entender observações relevantes
 ```
 
-**US10**
+**US09**
 ```
 Como engenheiro
 quero solicitar o cadastro de uma norma
@@ -87,14 +80,14 @@ Permitir classificar normas usando palavras-chave técnicas
 - associação de tags às normas
 
 ### Histórias de usuário
-**US11**
+**US10**
 ```
 Como gestor do sistema
 quero cadastrar novas tags
 para classificar normas de forma padronizada
 ```
 
-**US12**
+**US11**
 ```
 Como gestor do sistema
 quero associar tags às normas
@@ -109,14 +102,14 @@ Permitir encontrar normas rapidamente
 - busca por palavras-chave (tags)
 
 ### Histórias de usuário
-**US13**
+**US12**
 ```
 Como engenheiro
 quero pesquisar normas pelo código ou pelo nome
 para encontrar rapidamente uma norma específica
 ```
 
-**US14**
+**US13**
 ```
 Como engenheiro
 quero pesquisar normas por palavras-chave (tags)
@@ -131,28 +124,28 @@ Permitir "tipos" de usuário no sistema
 - gerenciamento de usuários
 
 ### Histórias de usuário
-**US15**
+**US14**
 ```
 Como gestor do sistema
 quero cadastrar novos usuários no sistema
 para que eles possam acessar a plataforma conforme suas permissões
 ```
 
-**US16**
+**US15**
 ```
 Como gestor do sistema
 quero visualizar a lista de usuários cadastrados
 para que eu possa gerenciar quem tem acesso ao sistema
 ```
 
-**US17**
+**US16**
 ```
 Como gestor do sistema
 quero alterar dados ou permissões de um usuário
 para que eu possa ajustar seu acesso quando necessário
 ```
 
-**US18**
+**US17**
 ```
 Como gestor do sistema
 quero desativar usuários
