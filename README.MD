@@ -19,13 +19,6 @@
   <a href ="#equipe"> Equipe</a>
 </p>
 
-## 📦 Repositórios do Projeto
-| 📁 Repositório   | 🔗 Link |
-|------------------|------------------------|
-| 📚 Documentação  | [Acessar](https://github.com/KoiTech-Aero/Documentos)|
-| 🖥️ Servidor      | [Acessar](https://github.com/KoiTech-Aero/Servidor)  |
-| 🌐 Frontend      | [Acessar](https://github.com/KoiTech-Aero/Frontend)  |
-
 ## 💻 Tecnologias e plataformas utilizadas<a id="tecnologias"></a>
 
 <h4 align="center">
@@ -55,6 +48,13 @@ Nosso cliente utiliza uma grande quantidade de normas técnicas em suas atividad
 ## 📌 Solução <a id="solucao"></a>
 
 A solução proposta consiste no desenvolvimento de um sistema para gerenciamento de normas técnicas, permitindo organizar, registrar e consultar normas de forma estruturada. A plataforma oferecerá recursos de busca, classificação e rastreabilidade das informações, facilitando o acesso às normas aplicáveis e tornando o processo mais ágil e eficiente.
+
+## 📦 Repositórios do Projeto
+| 📁 Repositório   | 🔗 Link |
+|------------------|------------------------|
+| 📚 Documentação  | [Acessar](https://github.com/KoiTech-Aero/Documentos)|
+| 🖥️ Servidor      | [Acessar](https://github.com/KoiTech-Aero/Servidor)  |
+| 🌐 Frontend      | [Acessar](https://github.com/KoiTech-Aero/Frontend)  |
 
 ## 🗺️ Roadmap <a id="roadmap"></a>
 
