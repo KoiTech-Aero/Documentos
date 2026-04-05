@@ -63,7 +63,7 @@ A solução proposta consiste no desenvolvimento de um sistema para gerenciament
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                          | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
-|  1   |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                                     |      7       |   1    |   🟨   |
+|  1   |    alta    | Como gestor do sistema quero cadastrar uma nova norma para que ela esteja disponível no sistema                                     |      7       |   1    |   🟩   |
 |  2   |    alta    | Como engenheiro quero listar normas ativas para saber quais são válidas para uso                                                    |      7       |   1    |   🟩   |
 |  3   |   média    | Como gestor do sistema quero registrar versões de uma norma para manter histórico e rastreabilidade                                 |      8       |   1    |   🟩   |
 |  4   |   baixa    | Como gestor do sistema quero associar uma norma a outras normas referenciadas para representar as dependências entre normas         |      5       |   1    |   🟩   |
@@ -71,7 +71,7 @@ A solução proposta consiste no desenvolvimento de um sistema para gerenciament
 |  6   |    alta    | Como engenheiro quero pesquisar normas pelo código ou pelo nome para encontrar rapidamente uma norma específica                     |      6       |   2    |   ❌   |
 |  7   |   média    | Como gestor do sistema quero cadastrar novas tags para classificar normas de forma padronizada                                      |      5       |   2    |   ❌   |
 |  8   |   média    | Como gestor do sistema quero associar tags às normas para melhorar a organização e busca                                            |      5       |   2    |   ❌   |
-|  9  |   média    | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico               |      7       |   2    |   ❌   |
+|  9   |   média    | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico               |      7       |   2    |   ❌   |
 |  10  |    alta    | Como engenheiro quero solicitar uma nota para uma norma para registrar observações ou interpretações técnicas                       |      8       |   3    |   ❌   |
 |  11  |    alta    | Como gestor do sistema quero cadastrar novos usuários no sistema para que eles possam acessar a plataforma conforme suas permissões |      5       |   3    |   ❌   |
 |  12  |   média    | Como gestor do sistema quero aprovar ou rejeitar notas solicitadas para controlar o conteúdo exibido no sistema                     |      7       |   3    |   ❌   |
@@ -83,8 +83,8 @@ A solução proposta consiste no desenvolvimento de um sistema para gerenciament
 
 ## 📅 Cronograma de Sprints <a id="cronograma"></a>
 
-| Sprint          |    Período    | Documentação                                                                                 | Demonstração |
-| --------------- | :-----------: | -------------------------------------------------------------------------------------------- | ------------ |
+| Sprint          |     Período      | Documentação                                                                                    | Demonstração     |
+| --------------- | :--------------: | ----------------------------------------------------------------------------------------------- | ---------------- |
 | 🔖 **SPRINT 1** | 🗓️ 16/03 - 05/04 | 📄 [Sprint 1 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2001.md) | 🎥 [Ver Demo](#) |
 | 🔖 **SPRINT 2** | 🗓️ 13/04 - 03/05 | 📄 [Sprint 2 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2002.md) | 🎥 [Ver Demo](#) |
 | 🔖 **SPRINT 3** | 🗓️ 11/05 - 31/05 | 📄 [Sprint 3 Docs](https://github.com/KoiTech-Aero/Documentos/blob/main/sprints/SPRINT%2003.md) | 🎥 [Ver Demo](#) |
@@ -100,7 +100,9 @@ Github Flow foi a estrátegia escolhida por ser fácil e rápida de trabalhar, p
 - Merge as branchs caso tudo esteja de acordo
 
 ## 🦴 Estrutura do Projeto <a id="estrutura"></a>
+
 **Back-end**
+
 ```
 ├── 📁 .github
 │   └── 📁 workflows
@@ -178,6 +180,7 @@ Github Flow foi a estrátegia escolhida por ser fácil e rápida de trabalhar, p
 ```
 
 **Front-end**
+
 ```
 ├── 📁 src
 │   ├── 📁 components
@@ -206,11 +209,41 @@ Github Flow foi a estrátegia escolhida por ser fácil e rápida de trabalhar, p
 └── 📄 vite.config.js
 ```
 
-## 💻 Como executar <a id="manual"></a>
+## 💻 Manual do usuário <a id="manual"></a>
 
-### Requisitos
+### Servidor
 
-### Execução
+```
+Requisitos:
+ - Nodejs 24.14.1
+ - Docker
+```
+
+```
+Como executar:
+ - Clonar o repositório com o comando: git clone https://github.com/KoiTech-Aero/Servidor.git
+ - Dentro de "Servidor", executar a sequência de comandos
+ 	npm install
+ 	cp .env.sample .env.test
+ 	npx prisma generate dev
+ 	npm run cli (parâmetros: test; db:up)
+ 	npm run cli (parâmetros: test; dev)
+```
+
+### Frontend
+
+```
+Requisitos:
+ - Nodejs 24.14.1
+```
+
+```
+Como executar:
+ - Clonar o repositório com o comando: git clone https://github.com/KoiTech-Aero/Frontend.git
+ - Dentro de "Frontend", executar a sequência de comandos:
+ 	npm install
+ 	npm run dev
+```
 
 ## 👥 EQUIPE <a id="equipe"></a>
 
