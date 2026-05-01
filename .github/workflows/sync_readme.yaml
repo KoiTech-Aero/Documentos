@@ -2,7 +2,7 @@ name: Sync README
 on:
   push:
     paths:
-      - 'README.md'
+      - 'README.MD'
 
 jobs:
   sycn:
@@ -18,7 +18,7 @@ jobs:
 
       - name: Copy Readme to Servidor
         run: |
-          git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/Servidor.git
+          git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/Servidor.git"
           cp README.md ./Servidor/README.md
           cd ./Servidor
           git add README.md
@@ -27,7 +27,7 @@ jobs:
 
       - name: Copy Readme to FrontEnd
         run: |
-          git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/FrontEnd.git
+          git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/FrontEnd.git"
           cp README.md ./FrontEnd/README.md
           cd ./FrontEnd
           git add README.md
