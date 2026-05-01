@@ -43,7 +43,7 @@
 
 ## 📌 Problema <a id="problema"></a>
 
-Nosso cliente utiliza uma grande quantidade de normas técnicas em suas atividades de engenharia, que são fundamentais para garantir conformidade e qualidade nos projetos. No entanto, a busca e identificação das normas aplicáveis ainda é um processo demorado e pouco estruturado, dificultando o acesso rápido às informações necessárias e impactando a eficiência das atividades técnicas
+Nosso cliente utiliza uma grande quantidade de normas técnicas em suas atividades de engenharia, que são fundamentais para garantir conformidade e qualidade nos projetos. No entanto, a busca e identificação das normas aplicáveis ainda é um processo demorado e pouco estruturado, dificultando o acesso rápido às informações necessárias e impactando a eficiência das atividades técnicas.
 
 ## 📌 Solução <a id="solucao"></a>
 
