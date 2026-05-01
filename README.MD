@@ -98,7 +98,7 @@ A solução proposta consiste no desenvolvimento de um sistema para gerenciament
 
 ## 🪵 Branch Strategy <a id="branchstrategy"></a>
 
-Github Flow foi a estrátegia escolhida por ser fácil e rápida de trabalhar, perfeita para equipes pequenas, além de se adequar a projetos que não são construido através de versões. Github Flow possui algumasd regras básicas:
+Github Flow foi a estrátegia escolhida por ser fácil e rápida de trabalhar, perfeita para equipes pequenas, além de se adequar a projetos que não são construido através de versões. Github Flow possui algumas regras básicas:
 
 - A branch `main` é sempre deployable
 - Nova branch para cada nova feature
