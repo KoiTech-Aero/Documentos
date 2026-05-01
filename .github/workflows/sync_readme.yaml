@@ -57,9 +57,9 @@ jobs:
       
       - name: Copy Readme to Perfil
         run: |
-          git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/.github.git
-          cp README.MD ./.github/profile/README.md
-          cd ./.github
+          git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/.github.git" perfil
+          cp README.MD ./perfil/profile/README.md
+          cd ./perfil
           git add profile/README.md
           git commit -m "docs: Atualiza README.md"
           git push
