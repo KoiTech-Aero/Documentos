@@ -41,7 +41,7 @@ jobs:
           git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/FrontEnd.git"
           cp README.MD ./FrontEnd/README.md
         
-      - name: Cria PR em Servidor
+      - name: Cria PR em FrontEnd
         uses: peter-evans/create-pull-request@v8
         with:
           path: FrontEnd
@@ -54,3 +54,12 @@ jobs:
           committer: "github-actions <actions@github.com>"
           token: ${{ secrets.PAT_DISPATCH }}
           add-paths: README.md
+      
+      - name: Copy Readme to Perfil
+        run: |
+          git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/.github.git
+          cp README.MD ./.github/profile/README.md
+          cd ./.github
+          git add profile/README.md
+          git commit -m "docs: Atualiza README.md"
+          git push
