@@ -1,0 +1,17 @@
+name: Notificar Update
+
+on:
+  push
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Disparar Evento
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PAT_DISPATCH }}
+          repository: koitech-API/ProjectAPI
+          event-type: update_submodule
