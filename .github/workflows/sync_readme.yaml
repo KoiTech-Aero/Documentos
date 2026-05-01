@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       
       - name: Setup GIT
         run: |
@@ -19,17 +19,36 @@ jobs:
       - name: Copy Readme to Servidor
         run: |
           git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/Servidor.git"
-          cp README.md ./Servidor/README.md
-          cd ./Servidor
-          git add README.md
-          git commit -m "docs: Atualiza README"
-          git push
+          cp README.MD ./Servidor/README.md
+
+      - name: Cria PR em Servidor
+        uses: peter-evans/create-pull-request@v8
+        with:
+          path: Servidor
+          title: Atualização do README
+          body: "PR automático para atualizar o README. FONTE: `Documentos`"
+          base: main
+          branch: update/readme-servidor
+          author: "github-actions <actions@github.com>"
+          committer: "github-actions <actions@github.com>"
+          token: ${{ secrets.PAT_DISPATCH }}
+          add-paths: README.md
+          delete-branch: true
 
       - name: Copy Readme to FrontEnd
         run: |
           git clone "https://${{ secrets.PAT_DISPATCH }}@github.com/KoiTech-Aero/FrontEnd.git"
-          cp README.md ./FrontEnd/README.md
-          cd ./FrontEnd
-          git add README.md
-          git commit -m "docs: Atualiza README"
-          git push
+          cp README.MD ./FrontEnd/README.md
+        
+      - name: Cria PR em Servidor
+        uses: peter-evans/create-pull-request@v8
+        with:
+          path: FrontEnd
+          title: Atualização do README
+          body: "PR automático para atualizar o README. FONTE: `Documentos`"
+          base: main
+          branch: update/readme-frontend
+          author: "github-actions <actions@github.com>"
+          committer: "github-actions <actions@github.com>"
+          token: ${{ secrets.PAT_DISPATCH }}
+          add-paths: README.md
