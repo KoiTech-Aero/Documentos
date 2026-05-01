@@ -25,6 +25,7 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           path: Servidor
+          commit-message: "docs: atualiza README automaticamente"
           title: Atualização do README
           body: "PR automático para atualizar o README. FONTE: `Documentos`"
           base: main
@@ -44,6 +45,7 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           path: FrontEnd
+          commit-message: "docs: atualiza README automaticamente"
           title: Atualização do README
           body: "PR automático para atualizar o README. FONTE: `Documentos`"
           base: main
