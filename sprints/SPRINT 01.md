@@ -15,6 +15,7 @@
   <a href ="#demonstracao">Demonstração</a>  |
   <a href ="#historias"> Histórias de usuário</a>  |   
   <a href ="#criterios">Critérios</a> |
+  <a href ="#cenarios">Cenários</a> |
   <a href ="#dordod">DoR & DoD</a> |
   <a href ="#equipe"> Equipe</a>
 </p>
@@ -86,6 +87,55 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 - A listagem deve exibir código e título das normas referenciadas
 - O sistema deve permitir acessar os detalhes de uma norma referenciada
 - A visualização deve ser acessível ao perfil engenheiro
+```
+
+## 📝 Cenários <a id="cenarios"></a>
+**US01 — Cadastro de norma**
+
+```
+Cenário: Cadastro de uma nova norma pelo gestor
+  Dado que o gestor está autenticado no sistema
+  Quando ele cadastra uma nova norma com código, nome e descrição
+  Então a norma deve ser salva no sistema
+  E deve ficar disponível para consulta
+```
+
+**US02 — Versionamento de norma**
+
+```
+Cenário: Registro de nova versão de uma norma
+  Dado que existe uma norma cadastrada
+  Quando o gestor cria uma nova versão dessa norma
+  Então o sistema deve armazenar a nova versão
+  E manter o histórico das versões anteriores
+```
+
+**US03 — Listagem de normas ativas**
+
+```
+Cenário: Listagem de normas ativas pelo engenheiro
+  Dado que o engenheiro está autenticado no sistema
+  Quando ele acessa a lista de normas
+  Então o sistema deve exibir apenas normas ativas
+```
+
+**US04 — Associação entre normas**
+
+```
+Cenário: Associação de normas referenciadas pelo gestor
+  Dado que o gestor está autenticado no sistema
+  E existe uma norma cadastrada
+  Quando ele associa outras normas como referência
+  Então o sistema deve salvar as relações entre as normas
+```
+
+**US05 — Visualização de dependências**
+
+```
+Cenário: Visualização de normas referenciadas
+  Dado que o engenheiro está visualizando uma norma
+  Quando ele acessa suas referências
+  Então o sistema deve exibir todas as normas relacionadas
 ```
 
 ## ✔️ "Definition of Ready" <a id="dordod"></a>
