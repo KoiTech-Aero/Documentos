@@ -1,35 +1,38 @@
 # Documentação Sprint 1
 
-## Plataforma de Conteúdo Técnico de Normas Aeronáuticas
+## <p align="center">**Plataforma de Conteúdo Técnico de Normas Aeronáuticas**</p>
 
 <p align="center">
   <img width="200" alt="koitech_logo" src="https://i.imgur.com/YugGoAM.png" />
 </p>
 
-<h2 align="center">
-  <b>KOITECH</b>
-</h2>
+<div align="center">
+  <strong>KOITECH - AERO</strong>
+</div>
 
-<p align="center">
-  <a href ="#meta"> Meta</a> |
-  <a href ="#demonstracao">Demonstração</a>  |
-  <a href ="#historias"> Histórias de usuário</a>  |   
-  <a href ="#criterios">Critérios</a> |
-  <a href ="#cenarios">Cenários</a> |
-  <a href ="#dordod">DoR & DoD</a> |
-  <a href ="#equipe"> Equipe</a>
-</p>
+<div align="center">
 
-> Status da Sprint: Concluída 🟩
+|                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <a href="#meta">Meta</a> • <a href="#demonstracao">Demonstração</a> • <a href="#historias">Histórias de Usuário</a> • <a href="#criterios">Critérios</a> • <a href="#cenarios">Cenários</a> • <a href="#dordod">DoR & DoD</a> • <a href="#equipe">Equipe</a> |
 
-## 🏅 Meta (US01 e US03)
+</div>
+
+> <p align="center"><strong>Status da Sprint:</strong> 🟩 Concluída</p>
+
+## 🏅 **Meta (US01 e US03)**
 
 Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, registro de versões, inclusão de escopo e visualização de referências entre normas <a id="meta"></a>
 
-## 📌 Demonstração<a id="demonstracao" ></a>
+<br>
+
+## 📌 **Demonstração**<a id="demonstracao" ></a>
+
 ### <a href="https://www.youtube.com/watch?v=e-QOllVsI6s">Sprint 1 - Site Koitech - Aero</a>
 
-## 📝 Histórias de usuário <a id="historias"></a>
+<br>
+
+## 📝 **Histórias de usuário (em ordem de prioridade)** <a id="historias"></a>
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                  | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :-------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
@@ -39,7 +42,9 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 |  4   |   baixa    | Como gestor do sistema quero associar uma norma a outras normas referenciadas para representar as dependências entre normas |      5       |   1    |   🟩   |
 |  5   |   baixa    | Como engenheiro quero visualizar quais normas são referenciadas por uma norma para entender suas dependências técnicas      |      7       |   1    |   🟩   |
 
-## 📝 Critérios de aceitação (em ordem númerica e não de prioridade)<a id="criterios"></a>
+<br>
+
+## 📝 **Critérios de aceitação (em ordem númerica)** <a id="criterios"></a>
 
 **US01 — Cadastrar norma**
 
@@ -89,56 +94,61 @@ Estabelecer a estrutura inicial do sistema, permitindo o cadastro de normas, reg
 - A visualização deve ser acessível ao perfil engenheiro
 ```
 
-## 📝 Cenários <a id="cenarios"></a>
+<br>
+
+## 📝 **Cenários** <a id="cenarios"></a>
+
 **US01 — Cadastro de norma**
 
 ```
 Cenário: Cadastro de uma nova norma pelo gestor
-  Dado que o gestor está autenticado no sistema
-  Quando ele cadastra uma nova norma com código, nome e descrição
-  Então a norma deve ser salva no sistema
-  E deve ficar disponível para consulta
+Dado que o gestor está autenticado no sistema
+Quando ele cadastra uma nova norma com código, nome e descrição
+Então a norma deve ser salva no sistema
+E deve ficar disponível para consulta
 ```
 
 **US02 — Versionamento de norma**
 
 ```
 Cenário: Registro de nova versão de uma norma
-  Dado que existe uma norma cadastrada
-  Quando o gestor cria uma nova versão dessa norma
-  Então o sistema deve armazenar a nova versão
-  E manter o histórico das versões anteriores
+Dado que existe uma norma cadastrada
+Quando o gestor cria uma nova versão dessa norma
+Então o sistema deve armazenar a nova versão
+E manter o histórico das versões anteriores
 ```
 
 **US03 — Listagem de normas ativas**
 
 ```
 Cenário: Listagem de normas ativas pelo engenheiro
-  Dado que o engenheiro está autenticado no sistema
-  Quando ele acessa a lista de normas
-  Então o sistema deve exibir apenas normas ativas
+Dado que o engenheiro está autenticado no sistema
+Quando ele acessa a lista de normas
+Então o sistema deve exibir apenas normas ativas
 ```
 
 **US04 — Associação entre normas**
 
 ```
 Cenário: Associação de normas referenciadas pelo gestor
-  Dado que o gestor está autenticado no sistema
-  E existe uma norma cadastrada
-  Quando ele associa outras normas como referência
-  Então o sistema deve salvar as relações entre as normas
+Dado que o gestor está autenticado no sistema
+E existe uma norma cadastrada
+Quando ele associa outras normas como referência
+Então o sistema deve salvar as relações entre as normas
 ```
 
 **US05 — Visualização de dependências**
 
 ```
 Cenário: Visualização de normas referenciadas
-  Dado que o engenheiro está visualizando uma norma
-  Quando ele acessa suas referências
-  Então o sistema deve exibir todas as normas relacionadas
+Dado que o engenheiro está visualizando uma norma
+Quando ele acessa suas referências
+Então o sistema deve exibir todas as normas relacionadas
 ```
 
-## ✔️ "Definition of Ready" <a id="dordod"></a>
+<br>
+
+## ✔️ **"Definition of Ready"** <a id="dordod"></a>
 
 - Está escrita no formato de história de usuário
 - Possui critérios de aceitação definidos
@@ -147,7 +157,9 @@ Cenário: Visualização de normas referenciadas
 - Dependências estão identificadas
 - Foi compreendida pela equipe
 
-## 🎯 "Definition of Done"
+<br>
+
+## 🎯 **"Definition of Done"**
 
 - Todos os critérios de aceitação foram atendidos
 - Funcionalidade implementada e funcionando
@@ -156,7 +168,9 @@ Cenário: Visualização de normas referenciadas
 - Código integrado ao repositório remoto
 - Funcionalidade validada pela equipe
 
-## 👥 EQUIPE <a id="equipe"></a>
+<br>
+
+## 👥 **Equipe** <a id="equipe"></a>
 
 |       MEMBRO        |     PAPEL     |                                                                        GITHUB                                                                        |                                                                                      LINKEDIN                                                                                       |
 | :-----------------: | :-----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |

@@ -1,34 +1,38 @@
 # Documentação Sprint 2
 
-## Plataforma de Conteúdo Técnico de Normas Aeronáuticas
+## <p align="center">**Plataforma de Conteúdo Técnico de Normas Aeronáuticas**</p>
 
 <p align="center">
   <img width="200" alt="koitech_logo" src="https://i.imgur.com/YugGoAM.png" />
 </p>
 
-<h2 align="center">
-  <b>KOITECH</b>
-</h2>
+<div align="center">
+  <strong>KOITECH - AERO</strong>
+</div>
 
-<p align="center">
-  <a href ="#meta"> Meta</a>  |
-  <a href ="#demonstracao">Demonstração</a>  |
-  <a href ="#historias"> Histórias de usuário</a>  |   
-  <a href ="#criterios">Critérios</a> |
-  <a href ="#cenarios">Cenários</a> |
-  <a href ="#dordod">DoR & DoD</a> |
-  <a href ="#equipe"> Equipe</a>
-</p>
+<div align="center">
 
-> Status da Sprint: Concluída 🟩
+|                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <a href="#meta">Meta</a> • <a href="#demonstracao">Demonstração</a> • <a href="#historias">Histórias de Usuário</a> • <a href="#criterios">Critérios</a> • <a href="#cenarios">Cenários</a> • <a href="#dordod">DoR & DoD</a> • <a href="#equipe">Equipe</a> |
 
-## 🏅 Meta (US14 e US17)
+</div>
+
+> <p align="center"><strong>Status da Sprint:</strong> 🟩 Concluída</p>
+
+## 🏅 **Meta (US14 e US17)**
 
 Implementar mecanismos de colaboração entre engenheiros e gestores, além de permitir a administração de usuários do sistema <a id="meta"></a>
 
-## 📌 Demonstração<a id="demonstracao"></a>
+<br>
 
-## 📝 Histórias de usuário <a id="historias"></a>
+## 📌 **Demonstração** <a id="demonstracao"></a>
+
+### <a href="https://www.youtube.com/watch?v=TPd1F329pM4">Sprint 2 - Site Koitech - Aero</a>
+
+<br>
+
+## 📝 **Histórias de usuário (em ordem de prioridade)** <a id="historias"></a>
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                          | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
@@ -38,7 +42,9 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 |  9   |   média    | Como gestor do sistema quero alterar dados ou permissões de um usuário para que eu possa ajustar seu acesso quando necessário       |      5       |   2    |   🟩   |
 |  10  |   baixa    | Como engenheiro quero solicitar o cadastro de uma norma para que ela seja adquirida ou cadastrada pela empresa                      |      7       |   2    |   🟩   |
 
-## 📝 Critérios de aceitação (em ordem númerica e não de prioridade)<a id="criterios"></a>
+<br>
+
+## 📝 **Critérios de aceitação (em ordem númerica)** <a id="criterios"></a>
 
 **US09 — Solicitar cadastro de norma**
 
@@ -85,7 +91,10 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - O sistema deve permitir visualizar que o usuário está com status desativado
 ```
 
-## 📝 Cenários <a id="cenarios"></a>
+<br>
+
+## 📝 **Cenários** <a id="cenarios"></a>
+
 **US09 — Solicitação de cadastro de norma**
 
 ```
@@ -132,8 +141,9 @@ Quando ele desativa um usuário
 Então o usuário não deve mais conseguir acessar o sistema
 ```
 
+<br>
 
-## ✔️ "Definition of Ready" <a id="dordod"></a>
+## ✔️ **"Definition of Ready"** <a id="dordod"></a>
 
 - Está escrita no formato de história de usuário
 - Possui critérios de aceitação definidos
@@ -142,7 +152,9 @@ Então o usuário não deve mais conseguir acessar o sistema
 - Dependências estão identificadas
 - Foi compreendida pela equipe
 
-## 🎯 "Definition of Done"
+<br>
+
+## 🎯 **"Definition of Done"**
 
 - Todos os critérios de aceitação foram atendidos
 - Funcionalidade implementada e funcionando
@@ -151,7 +163,9 @@ Então o usuário não deve mais conseguir acessar o sistema
 - Código integrado ao repositório remoto
 - Funcionalidade validada pela equipe
 
-## 👥 EQUIPE <a id="equipe"></a>
+<br>
+
+## 👥 **Equipe** <a id="equipe"></a>
 
 |       MEMBRO        |     PAPEL     |                                                                        GITHUB                                                                        |                                                                                      LINKEDIN                                                                                       |
 | :-----------------: | :-----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
