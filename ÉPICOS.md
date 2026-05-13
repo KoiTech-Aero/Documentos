@@ -72,6 +72,20 @@ quero solicitar o cadastro de uma norma
 para que ela seja adquirida ou cadastrada pela empresa
 ```
 
+**US10 — Visualizar solicitações de normas**
+```
+Como engenheiro
+quero visualizar as solicitações de normas realizadas
+para poder avaliar suas implementações no sistema
+```
+
+**US11 — Aprovação de normas**
+```
+Como engenheiro
+quero aprovar ou rejeitar uma solicitação de norma
+para que o cadastro de normas seja criterioso
+```
+
 <br>
 
 # **ÉPICO 02 - SISTEMA DE TAGS**
@@ -82,14 +96,14 @@ Permitir classificar normas usando palavras-chave técnicas
 - associação de tags às normas
 
 ### Histórias de usuário:
-**US10 — Cadastro de tags**
+**US12 — Cadastro de tags**
 ```
 Como gestor do sistema
 quero cadastrar novas tags
 para classificar normas de forma padronizada
 ```
 
-**US11 — Associação de tags às normas**
+**US13 — Associação de tags às normas**
 ```
 Como gestor do sistema
 quero associar tags às normas
@@ -106,14 +120,14 @@ Permitir encontrar normas rapidamente
 - busca por palavras-chave (tags)
 
 ### Histórias de usuário:
-**US12 — Busca por código ou nome**
+**US14 — Busca por código ou nome**
 ```
 Como engenheiro
 quero pesquisar normas pelo código ou pelo nome
 para encontrar rapidamente uma norma específica
 ```
 
-**US13 — Busca por tags**
+**US15 — Busca por tags**
 ```
 Como engenheiro
 quero pesquisar normas por palavras-chave (tags)
@@ -130,28 +144,28 @@ Permitir "tipos" de usuário no sistema
 - gerenciamento de usuários
 
 ### Histórias de usuário:
-**US14 — Cadastrar usuários**
+**US16 — Cadastrar usuários**
 ```
 Como gestor do sistema
 quero cadastrar novos usuários no sistema
 para que eles possam acessar a plataforma conforme suas permissões
 ```
 
-**US15 — Visualizar usuários**
+**US17 — Visualizar usuários**
 ```
 Como gestor do sistema
 quero visualizar a lista de usuários cadastrados
 para que eu possa gerenciar quem tem acesso ao sistema
 ```
 
-**US16 — Alterar dados ou permissões de usuário**
+**US18 — Alterar dados ou permissões de usuário**
 ```
 Como gestor do sistema
 quero alterar dados ou permissões de um usuário
 para que eu possa ajustar seu acesso quando necessário
 ```
 
-**US17 — Desativar usuários**
+**US19 — Desativar usuários**
 ```
 Como gestor do sistema
 quero desativar usuários
