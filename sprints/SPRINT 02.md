@@ -55,7 +55,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - A solicitação deve ficar disponível para visualização do gestor do sistema
 ```
 
-**US14 — Cadastrar usuários**
+**US16 — Cadastrar usuários**
 
 ```
 - O sistema deve permitir cadastrar novo usuário informando nome e identificação
@@ -64,7 +64,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - O usuário cadastrado deve aparecer na lista de usuários
 ```
 
-**US15 — Visualizar usuários**
+**US17 — Visualizar usuários**
 
 ```
 - O sistema deve permitir visualizar todos os usuários cadastrados
@@ -73,7 +73,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - Usuários desativados devem continuar visíveis na listagem para fins de histórico
 ```
 
-**US16 — Alterar dados ou permissões de usuário**
+**US18 — Alterar dados ou permissões de usuário**
 
 ```
 - O sistema deve permitir editar dados de um usuário existente
@@ -82,7 +82,7 @@ Implementar mecanismos de colaboração entre engenheiros e gestores, além de p
 - As alterações devem ser refletidas na lista de usuários
 ```
 
-**US17 — Desativar usuários**
+**US19 — Desativar usuários**
 
 ```
 - O sistema deve permitir desativar um usuário existente
@@ -105,7 +105,7 @@ Então o sistema deve registrar a solicitação
 E enviá-la para análise do gestor
 ```
 
-**US14 — Cadastro de usuários**
+**US16 — Cadastro de usuários**
 
 ```
 Cenário: Cadastro de novo usuário pelo gestor
@@ -114,7 +114,7 @@ Quando ele cadastra um novo usuário com permissões
 Então o usuário deve ser criado no sistema
 ```
 
-**US15 — Listagem de usuários**
+**US17 — Listagem de usuários**
 
 ```
 Cenário: Visualização da lista de usuários
@@ -123,7 +123,7 @@ Quando ele acessa a lista de usuários
 Então o sistema deve exibir todos os usuários cadastrados
 ```
 
-**US16 — Edição de usuário**
+**US18 — Edição de usuário**
 
 ```
 Cenário: Alteração de dados ou permissões de usuário
@@ -132,7 +132,7 @@ Quando ele altera os dados ou permissões de um usuário
 Então o sistema deve atualizar as informações do usuário
 ```
 
-**US17 — Desativação de usuário**
+**US19 — Desativação de usuário**
 
 ```
 Cenário: Desativação de usuário pelo gestor

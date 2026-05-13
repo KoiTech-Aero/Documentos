@@ -34,21 +34,23 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
 
 ## 📝 **Histórias de usuário (em ordem númerica)** <a id="historias"></a>
 
-| RANK | PRIORIDADE | USER STORY                                                                                                            | STORY POINTS | SPRINT | STATUS |
-| :--: | :--------: | :-------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :----: |
-|  11  |    alta    | Como engenheiro quero solicitar uma nota para uma norma para registrar observações ou interpretações técnicas         |      8       |   3    |   ❌   |
-|  12  |    alta    | Como engenheiro quero pesquisar normas pelo código ou pelo nome para encontrar rapidamente uma norma específica       |      6       |   3    |   ❌   |
-|  13  |   média    | Como gestor do sistema quero aprovar ou rejeitar notas solicitadas para controlar o conteúdo exibido no sistema       |      7       |   3    |   ❌   |
-|  14  |   média    | Como engenheiro, quero visualizar todas as notas no sistema, para entender observações relevantes                     |      7       |   3    |   ❌   |
-|  15  |   média    | Como gestor do sistema quero cadastrar novas tags para classificar normas de forma padronizada                        |      5       |   3    |   ❌   |
-|  16  |   média    | Como gestor do sistema quero associar tags às normas para melhorar a organização e busca                              |      5       |   3    |   ❌   |
-|  17  |   média    | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico |      7       |   3    |   ❌   |
+| RANK | PRIORIDADE | USER STORY                                                                                                                | STORY POINTS | SPRINT | STATUS |
+| :--: | :--------: | :------------------------------------------------------------------------------------------------------------------------ | :----------: | :----: | :----: |
+|  11  |    alta    | Como engenheiro quero solicitar uma nota para uma norma para registrar observações ou interpretações técnicas             |      8       |   3    |   ❌   |
+|  12  |    alta    | Como engenheiro quero pesquisar normas pelo código ou pelo nome para encontrar rapidamente uma norma específica           |      6       |   3    |   ❌   |
+|  13  |   média    | Como gestor do sistema quero aprovar ou rejeitar notas solicitadas para controlar o conteúdo exibido no sistema           |      7       |   3    |   ❌   |
+|  14  |   média    | Como engenheiro, quero visualizar todas as notas no sistema, para entender observações relevantes                         |      7       |   3    |   ❌   |
+|  15  |   média    | Como gestor do sistema quero cadastrar novas tags para classificar normas de forma padronizada                            |      5       |   3    |   ❌   |
+|  16  |   média    | Como gestor do sistema quero associar tags às normas para melhorar a organização e busca                                  |      5       |   3    |   ❌   |
+|  17  |   média    | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico     |      7       |   3    |   ❌   |
+|  18  |   média    | Como engenheiro, quero visualizar as solicitações de normas realizadas, para poder avaliar suas implementações no sistema |      5       |   3    |   ❌   |
+|  19  |   baixa    | Como engenheiro, quero aprovar ou rejeitar uma solicitação de norma, para que o cadastro de normas seja criterioso        |      6       |   3    |   ❌   |
 
 <br>
 
 ## 📝 **Critérios de aceitação (em ordem númerica)** <a id="criterios"></a>
 
-**US06 — Solicitar nota para uma norma**
+**US06 — Solicitar nota**
 
 ```
  - A rota deve estar implementada e fazendo a requisição corretamente;
@@ -59,7 +61,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
  - O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
 ```
 
-**US07 — Visualizar notas**
+**US07 — Visualização de notas**
 
 ```
  - As rotas devem estar implementadas e fazendo as requisições corretamente;
@@ -71,7 +73,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
  - O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
 ```
 
-**US08 — Aprovar ou rejeitar notas**
+**US08 — Aprovação de notas**
 
 ```
  - A rota deve estar implementada e fazendo a requisição corretamente;
@@ -80,7 +82,28 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
  - O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
 ```
 
-**US10 — Cadastrar tags**
+**US10 — Visualizar solicitações de normas**
+
+```
+- As rotas devem estar implementadas e fazendo as requisições corretamente;
+- Cada item (solicitação) da tela de listagem deve conter: título da solicitação, autor, data da solicitação, status e um botão "detalhes";
+- Para o engenheiro, o botão detalhes deve abrir um modal com todos os detalhes da solicitação e dois botões: aprovar ou rejeitar. Caso já esteja avaliada, os botões não devem aparecer para o usuário;
+- Para o gestor, o botão detalhes deve abrir um modal com todos os detalhes da solicitação e um botão "cadastrar", caso o status da norma seja "aprovada";
+- O botão "cadastrar" deve redirecionar para a tela de cadastro já preenchendo os campos informados na solicitação;
+- Commits realizados dentro da nova branch: feature-listar-normas;
+- O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
+```
+
+**US11 — Aprovação de normas**
+
+```
+- A rota deve estar implementada e fazendo a requisição corretamente;
+- A funcionalidade dos botões no modal dentro da listagem de normas deve alterar o status da norma para "aprovada" ou "rejeitada";
+- Commits realizados dentro da nova branch: feature-aprovacao-normas;
+- O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
+```
+
+**US12 — Cadastro de tags**
 
 ```
  - A rota deve estar implementada e fazendo a requisição corretamente;
@@ -90,7 +113,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
  - O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
 ```
 
-**US11 — Associar tags às normas**
+**US13 — Associação de tags às normas**
 
 ```
  - A rota deve estar implementada e fazendo a requisição corretamente;
@@ -101,7 +124,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
  - O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
 ```
 
-**US12 — Buscar normas por código ou nome**
+**US14 — Busca por código ou nome**
 
 ```
  - A filtragem na tela de pesquisa deve estar implementada corretamente;
@@ -109,7 +132,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
  - O padrão dos commits deve seguir o nome da task, o tipo da tarefa e sua descrição. Exemplo: KOIKOI-123 feat: descrição da atividade feita.
 ```
 
-**US13 — Filtrar normas por tags**
+**US15 — Busca por tags**
 
 ```
  - A filtragem na tela de pesquisa deve estar implementada corretamente;
@@ -148,7 +171,28 @@ Quando o gestor aprova ou rejeita a nota
 Então o sistema deve atualizar o status da nota corretamente
 ```
 
-**US10 — Cadastro de tags**
+**US10 — Visualizar solicitações de normas**
+
+```
+Cenário: Visualização de solicitações de normas
+Dado que o usuário está autenticado no sistema
+Quando ele acessa a tela de listagem de solicitações de normas
+Então o sistema deve exibir o título da solicitação, autor, data, status e botão de detalhes
+E o botão detalhes deve abrir um modal com as informações completas da solicitação
+E os botões exibidos devem variar conforme o tipo de usuário e status da solicitação
+```
+
+**US11 — Aprovação de normas**
+
+```
+Cenário: Aprovação ou rejeição de solicitação de norma
+Dado que existe uma solicitação de norma pendente
+Quando o engenheiro acessa os detalhes da solicitação
+E seleciona aprovar ou rejeitar
+Então o sistema deve atualizar o status da solicitação corretamente
+```
+
+**US12 — Cadastro de tags**
 
 ```
 Cenário: Cadastro de uma nova tag
@@ -157,7 +201,7 @@ Quando ele cadastra uma nova tag
 Então o sistema deve registrar a tag com nome único e padronizado
 ```
 
-**US11 — Associação de tags às normas**
+**US13 — Associação de tags às normas**
 
 ```
 Cenário: Associação de tags a uma norma
@@ -166,7 +210,7 @@ Quando o usuário associa uma ou mais tags à norma
 Então o sistema deve vincular corretamente as tags à norma
 ```
 
-**US12 — Busca por código ou nome**
+**US14 — Busca por código ou nome**
 
 ```
 Cenário: Pesquisa de normas por código ou nome
@@ -175,7 +219,7 @@ Quando o usuário realiza uma pesquisa por código ou nome
 Então o sistema deve exibir as normas correspondentes ao filtro informado
 ```
 
-**US13 — Busca por tags**
+**US15 — Busca por tags**
 
 ```
 Cenário: Filtragem de normas por tags
