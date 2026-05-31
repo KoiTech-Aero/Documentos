@@ -18,7 +18,7 @@
 
 </div>
 
-> <p align="center"><strong>Status da Sprint:</strong> 🟨 Em andamento</p>
+> <p align="center"><strong>Status da Sprint:</strong> 🟩 Concluída</p>
 
 ## 🏅 **Meta (US06, US07 e US08)**
 
@@ -28,7 +28,7 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
 
 ## 📌 **Demonstração**<a id="demonstracao"></a>
 
-### <a href="#">Sprint 3 - Site Koitech - Aero</a>
+### <a href="https://www.youtube.com/watch?v=jP18nC-Def4">Sprint 3 - Site Koitech - Aero</a>
 
 <br>
 
@@ -36,15 +36,15 @@ Permitir organizar normas por meio de tags e disponibilizar mecanismos de busca 
 
 | RANK | PRIORIDADE | USER STORY                                                                                                                | STORY POINTS | SPRINT | STATUS |
 | :--: | :--------: | :------------------------------------------------------------------------------------------------------------------------ | :----------: | :----: | :----: |
-|  11  |    alta    | Como engenheiro quero solicitar uma nota para uma norma para registrar observações ou interpretações técnicas             |      8       |   3    |   ❌   |
-|  12  |    alta    | Como engenheiro quero pesquisar normas pelo código ou pelo nome para encontrar rapidamente uma norma específica           |      6       |   3    |   ❌   |
-|  13  |   média    | Como gestor do sistema quero aprovar ou rejeitar notas solicitadas para controlar o conteúdo exibido no sistema           |      7       |   3    |   ❌   |
-|  14  |   média    | Como engenheiro, quero visualizar todas as notas no sistema, para entender observações relevantes                         |      7       |   3    |   ❌   |
-|  15  |   média    | Como gestor do sistema quero cadastrar novas tags para classificar normas de forma padronizada                            |      5       |   3    |   ❌   |
-|  16  |   média    | Como gestor do sistema quero associar tags às normas para melhorar a organização e busca                                  |      5       |   3    |   ❌   |
-|  17  |   média    | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico     |      7       |   3    |   ❌   |
-|  18  |   média    | Como engenheiro, quero visualizar as solicitações de normas realizadas, para poder avaliar suas implementações no sistema |      5       |   3    |   ❌   |
-|  19  |   baixa    | Como engenheiro, quero aprovar ou rejeitar uma solicitação de norma, para que o cadastro de normas seja criterioso        |      6       |   3    |   ❌   |
+|  11  |    alta    | Como engenheiro quero solicitar uma nota para uma norma para registrar observações ou interpretações técnicas             |      8       |   3    |   🟩   |
+|  12  |    alta    | Como engenheiro quero pesquisar normas pelo código ou pelo nome para encontrar rapidamente uma norma específica           |      6       |   3    |   🟩   |
+|  13  |   média    | Como gestor do sistema quero aprovar ou rejeitar notas solicitadas para controlar o conteúdo exibido no sistema           |      7       |   3    |   🟩   |
+|  14  |   média    | Como engenheiro, quero visualizar todas as notas no sistema, para entender observações relevantes                         |      7       |   3    |   🟩   |
+|  15  |   média    | Como gestor do sistema quero cadastrar novas tags para classificar normas de forma padronizada                            |      5       |   3    |   🟩   |
+|  16  |   média    | Como gestor do sistema quero associar tags às normas para melhorar a organização e busca                                  |      5       |   3    |   🟩   |
+|  17  |   média    | Como engenheiro quero pesquisar normas por palavras-chave (tags) para encontrar normas relacionadas a um tema técnico     |      7       |   3    |   🟩   |
+|  18  |   média    | Como engenheiro, quero visualizar as solicitações de normas realizadas, para poder avaliar suas implementações no sistema |      5       |   3    |   🟩   |
+|  19  |   baixa    | Como engenheiro, quero aprovar ou rejeitar uma solicitação de norma, para que o cadastro de normas seja criterioso        |      6       |   3    |   🟩   |
 
 <br>
 
