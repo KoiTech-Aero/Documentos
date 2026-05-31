@@ -13,8 +13,8 @@
 
 |                                                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="#tecnologias">Tecnologias</a> • <a href="#problema">Problema</a> • <a href="#solucao">Solução</a> • <a href="#repositorios">Repositórios</a> • <a href="#roadmap">Roadmap</a> • <a href="#cronograma-de-sprints">Cronograma</a>                            |
-| <a href="#backlog-do-produto">Backlog</a> • <a href="#branch-strategy">Branch Strategy</a> • <a href="#arquitetura">Arquitetura</a> • <a href="#estrutura-do-projeto">Estrutura</a> • <a href="#manual-de-instalacao">Instalação</a> • <a href="#equipe">Equipe</a> |
+| <a href="#tecnologias">Tecnologias</a> • <a href="#problema">Problema</a> • <a href="#solucao">Solução</a> • <a href="#repositorios">Repositórios</a> • <a href="#roadmap">Roadmap</a> • <a href="#cronograma">Cronograma</a>                            |
+| <a href="#backlog">Backlog</a> • <a href="#branchstrategy">Branch Strategy</a> • <a href="#arquitetura">Arquitetura</a> • <a href="#estrutura">Estrutura</a> • <a href="#manual">Instalação</a> • <a href="#equipe">Equipe</a> |
 
 </div>
 
